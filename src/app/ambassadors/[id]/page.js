@@ -49,7 +49,7 @@ export default function Category({ params }) {
         <div>
           <section className="flex flex-col">
             <h1 className="pt-10 text-7xl font-bold italic ml-10">
-              " {data.motto} "
+              &quot; {data.motto} &quot;
             </h1>
             <p className=" border-y border-dashed border-gray-100 mt-16 mx-10 py-4">
               Based in : {data.location}
