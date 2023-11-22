@@ -15,7 +15,6 @@ export default function page() {
               <h2 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
                 Beyond the game,
                 <span class="text-blue-600 dark:text-blue-400">
-                  {" "}
                   Stories of triumph and inspiration.
                 </span>
               </h2>
@@ -77,7 +76,6 @@ export default function page() {
       <section className="grid grid-cols-1 gap-y-6 md:grid-cols-2 md:py-20 md:p-14 p-8">
         <div className="md:mx-10">
           <h1 className="italic text-3xl font-bold mb-6 py-5">
-            {" "}
             JOIN THE BODYACTIVE FAMILY ?
           </h1>
           <p className="text-gray-400 text-xl">
