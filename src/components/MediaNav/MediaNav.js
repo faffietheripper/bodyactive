@@ -248,7 +248,7 @@ export default function MediaNav() {
                   </div>
                 </Link>
               </section>
-              <Link href="/contact">
+              <Link href="/contact" onClick={() => setShowMenu(false)}>
                 <button className="fixed flex z-10 top-10 left-14  text-white hover:bg-white hover:text-black hover:rounded-md font-bold uppercase text-md px-4 py-3 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
