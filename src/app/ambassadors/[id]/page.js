@@ -22,15 +22,8 @@ export default function Category({ params }) {
           <div className="">
             <div className=" relative bg-[url(https://cdn.pixabay.com/photo/2017/07/31/22/27/black-2561620_1280.jpg)] bg-center h-[30vh] md:h-[50vh] bg-cover bg-no-repeat w-full flex flex-col  pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64"></div>
             <div className="container mx-auto flex justify-center md:-mt-56 -mt-20 sm:-mt-40">
-              <div className="absolute md:top-[40vh] left-20 ">
-                <section className=" grid grid-cols-2">
-                  <Image
-                    class="rounded-full border-[6px] border-white h-[20vh]"
-                    height={900}
-                    width={150}
-                    src={data.img}
-                    alt="Catalogue"
-                  />
+              <div className="absolute md:top-[40vh] right-8 md:right-20 ">
+                <section className="">
                   <div>
                     <h1 className="text-2xl font-semibold"> {data.title}</h1>
                     <h1>
@@ -62,7 +55,7 @@ export default function Category({ params }) {
             </p>
           </section>
         </div>
-        <section className="p-6">
+        <section className="p-10">
           <h1 className="text-4xl font-bold border-l-[4px] border-blue-600 px-4">
             {" "}
             BIO
