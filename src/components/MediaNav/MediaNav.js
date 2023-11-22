@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function MediaNav() {
   const [showMenu, setShowMenu] = useState(false);
@@ -101,7 +102,9 @@ export default function MediaNav() {
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
-                    <img
+                    <Image
+                      height={9000}
+                      width={9000}
                       alt="Projects"
                       src="/cricket.jpg"
                       class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover "
@@ -124,7 +127,9 @@ export default function MediaNav() {
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
-                    <img
+                    <Image
+                      height={9000}
+                      width={9000}
                       alt="Ambassadors"
                       src="/bamedia.jpg"
                       class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover "
@@ -147,7 +152,9 @@ export default function MediaNav() {
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
-                    <img
+                    <Image
+                      height={9000}
+                      width={9000}
                       alt="Achievements"
                       src="https://cdn.pixabay.com/photo/2019/08/11/15/28/sport-4399175_1280.jpg"
                       class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover "
@@ -171,7 +178,9 @@ export default function MediaNav() {
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
-                    <img
+                    <Image
+                      height={9000}
+                      width={9000}
                       alt="Consultancy"
                       src="https://cdn.pixabay.com/photo/2014/09/28/19/50/fitness-465205_1280.jpg"
                       class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover "
@@ -194,7 +203,9 @@ export default function MediaNav() {
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
-                    <img
+                    <Image
+                      height={9000}
+                      width={9000}
                       alt="Community"
                       src="/rugby7s.jpg"
                       class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover "
@@ -217,7 +228,9 @@ export default function MediaNav() {
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
-                    <img
+                    <Image
+                      height={9000}
+                      width={9000}
                       alt="Sponsorship"
                       src="https://cdn.pixabay.com/photo/2013/06/27/06/23/shanghai-141673_1280.jpg"
                       class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover "

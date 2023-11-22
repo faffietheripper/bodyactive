@@ -40,9 +40,9 @@ export default function page() {
                 <p class="font-medium text-gray-500 dark:text-gray-300">
                   Positive Brand Image and Reputation - Supporting a media and
                   fitness company dedicated to community well-being enhances
-                  your brand's image. Associating your brand with an
-                  organization that promotes health and fitness sends a positive
-                  message about your commitment to societal well-being
+                  your brands image. Associating your brand with an organization
+                  that promotes health and fitness sends a positive message
+                  about your commitment to societal well-being
                 </p>
               </div>
 

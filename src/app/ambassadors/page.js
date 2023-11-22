@@ -47,13 +47,17 @@ export default function page() {
               key={data.id}
             >
               <div class="relative h-[350px] sm:h-[450px]">
-                <img
+                <Image
+                  height={9000}
+                  width={9000}
                   src={data.img}
                   alt=""
                   class="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
                 />
 
-                <img
+                <Image
+                  height={9000}
+                  width={9000}
                   src={data.img2}
                   alt=""
                   class="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"

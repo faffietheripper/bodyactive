@@ -116,7 +116,9 @@ export default function Category({ params }) {
                     >
                       <Slide index={0}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img1}
                             alt="black chair and white table"
                             className="object-cover object-center h-64 w-full"
@@ -128,7 +130,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={1}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img2}
                             alt="sitting area"
                             className="object-cover object-center h-64 w-full"
@@ -140,7 +144,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={2}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img3}
                             alt="sitting area"
                             className="object-cover object-center h-64 w-full"
@@ -152,7 +158,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={3}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img4}
                             alt="sitting area"
                             className="object-cover object-center h-64 w-full"
@@ -164,7 +172,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={4}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img5}
                             alt="black chair and white table"
                             className="object-cover object-center h-64 w-full"
@@ -176,7 +186,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={5}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img6}
                             alt="sitting area"
                             className="object-cover object-center h-64 w-full"
@@ -188,7 +200,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={6}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img7}
                             alt="sitting area"
                             className="object-cover object-center h-64 w-full"
@@ -200,7 +214,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={7}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img8}
                             alt="sitting area"
                             className="object-cover object-center h-64 w-full"
@@ -279,7 +295,9 @@ export default function Category({ params }) {
                     >
                       <Slide index={0}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img1}
                             alt="black chair and white table"
                             className="object-cover object-center w-full"
@@ -291,7 +309,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={1}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img1}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -303,7 +323,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={2}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img2}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -315,7 +337,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={3}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img3}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -327,7 +351,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={4}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img4}
                             alt="black chair and white table"
                             className="object-cover object-center w-full"
@@ -339,7 +365,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={5}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img5}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -351,7 +379,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={6}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img6}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -363,7 +393,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={7}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img7}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -442,7 +474,9 @@ export default function Category({ params }) {
                     >
                       <Slide index={0}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img1}
                             alt="black chair and white table"
                             className="object-cover object-center w-full"
@@ -454,7 +488,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={1}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img1}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -466,7 +502,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={2}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img2}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -478,7 +516,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={3}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img3}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -490,7 +530,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={4}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img4}
                             alt="black chair and white table"
                             className="object-cover object-center w-full"
@@ -502,7 +544,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={5}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img5}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -514,7 +558,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={6}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img6}
                             alt="sitting area"
                             className="object-cover object-center w-full"
@@ -526,7 +572,9 @@ export default function Category({ params }) {
                       </Slide>
                       <Slide index={7}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                          <img
+                          <Image
+                            height={9000}
+                            width={9000}
                             src={data.img7}
                             alt="sitting area"
                             className="object-cover object-center w-full"

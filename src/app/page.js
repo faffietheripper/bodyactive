@@ -108,9 +108,9 @@ export default function Home() {
 
             <div class="max-w-lg lg:mx-12 lg:order-2">
               <p class=" text-gray-300 text-xl font-semibold">
-                Whether you're here to explore our media services or embark on a
-                transformative fitness journey, we invite you to take the next
-                step with Body Active. Together, let's unlock your potential,
+                Whether you are here to explore our media services or embark on
+                a transformative fitness journey, we invite you to take the next
+                step with Body Active. Together, lets unlock your potential,
                 elevate your brand, and transform your lifestyle. Discover the
                 power of media and wellness today. Your journey begins here.
               </p>

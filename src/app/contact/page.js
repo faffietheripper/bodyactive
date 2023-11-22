@@ -26,7 +26,7 @@ export default function page() {
 
                 <p class="max-w-xl mt-6">
                   Have questions or ready to get started? Reach out to us using
-                  the contact form below, and we'll get back to you as soon as
+                  the contact form below, and we will get back to you as soon as
                   possible.
                 </p>
 
