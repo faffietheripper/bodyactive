@@ -107,7 +107,7 @@ export default function Home() {
             </div>
 
             <div class="max-w-lg lg:mx-12 lg:order-2">
-              <p class=" text-gray-300 text-xl font-semibold">
+              <p class="mt-10 text-gray-300 text-xl font-semibold">
                 Whether you are here to explore our media services or embark on
                 a transformative fitness journey, we invite you to take the next
                 step with Body Active. Together, lets unlock your potential,
