@@ -5,11 +5,11 @@ import Footer from "@/components/Footer/Footer";
 export default function page() {
   return (
     <>
-      <div className="flex italic text-6xl font-bold flex-col items-center justify-between p-24">
+      <div className="flex italic text-4xl md:text-6xl font-bold flex-col items-center justify-between mx-10 p-24">
         <span className="text-blue-600 pb-2">BODYACTIVE </span>FITNESS
       </div>
 
-      <section className="grid grid-cols-3 gap-x-6 p-6 border-y-2 border-gray-500">
+      <section className="grid grid-cols-1 gap-y-4 md:grid-cols-3 gap-x-6 p-6 border-y-2 border-gray-500">
         <Image
           class="object-cover h-[50vh]   opacity-75 transition-opacity group-hover:opacity-50 "
           height={9000}
@@ -33,9 +33,9 @@ export default function page() {
         />
       </section>
 
-      <section className="text-center p-32 mx-56">
+      <section className="text-center my-10 p-2 mx-10 md:p-32 md:mx-56">
         <h3 className="text-blue-600">- OUR STORY - </h3>
-        <h1 className="italic text-4xl font-bold py-5">
+        <h1 className="italic text-2xl md:text-4xl font-bold py-5">
           {" "}
           THE BODYACTIVE TRAINING STORY
         </h1>
@@ -53,7 +53,7 @@ export default function page() {
         </p>
       </section>
 
-      <section className="grid grid-cols-2 gap-x-6 p-6 border-y-2 border-gray-500">
+      <section className="grid grid-cols-1 gap-y-4 md:grid-cols-2 gap-x-6 p-6 border-y-2 border-gray-500">
         <Image
           class="object-cover h-[70vh]   opacity-75 transition-opacity group-hover:opacity-50 "
           height={9000}
@@ -71,9 +71,9 @@ export default function page() {
         />
       </section>
 
-      <section className="text-center p-32 mx-56">
+      <section className="text-center p-2 my-10 md:p-32 mx-10 md:mx-56">
         <h3 className="text-blue-600">- OUR MISSION - </h3>
-        <h1 className="italic text-4xl font-bold py-5">
+        <h1 className="italic text-2xl md:text-4xl font-bold py-5">
           {" "}
           ATTAIN MAXIMUM PERFOMANCE
         </h1>
@@ -83,7 +83,7 @@ export default function page() {
           nec. Sed vitae faucibus tristique nisl, tincidunt nec consequat
           ullamcorper. Eu volutpat lacus lacus porttitor sed nunc.
         </p>
-        <p className="text-gray-400 text-xl pt-2">
+        <p className="text-gray-400 text-xl">
           Neque ornare pellentesque mus in nisi, mi, ac. Morbi volutpat velit id
           adipiscing mollis. Quisque bibendum vehicula eget ac fringilla non
           nec. Sed vitae faucibus tristique nisl, tincidunt nec consequat
@@ -91,7 +91,7 @@ export default function page() {
         </p>
       </section>
 
-      <section className="grid grid-cols-3 gap-x-6 p-6 border-y-2 border-gray-500">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-x-6 p-6 border-y-2 border-gray-500">
         <Image
           class="object-cover h-[50vh]   opacity-75 transition-opacity group-hover:opacity-50 "
           height={9000}
@@ -115,8 +115,8 @@ export default function page() {
         />
       </section>
 
-      <section className="grid grid-cols-5 py-20">
-        <div className="col-span-4 mx-13 italic text-5xl font-bold p-10">
+      <section className="grid grid-cols-1 md:grid-cols-5 py-20">
+        <div className="col-span-4 mx-13 italic text-4xl md:text-5xl font-bold p-10">
           <p className="text-blue-600 pb-3">BOOK A SESSION</p> & START YOUR
           FITNESS JOURNEY TODAY!
         </div>

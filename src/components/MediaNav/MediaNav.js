@@ -94,10 +94,10 @@ export default function MediaNav() {
                 </button>
               </div>
 
-              <section className="overflow-y-scroll md:overflow-y-visible grid grid-cols-1 md:grid-cols-3 gap-8 my-20 mx-8 md:my-28 md:mx-28">
+              <section className="overflow-y-scroll md:overflow-y-visible grid grid-cols-1 md:grid-cols-3 gap-8 my-20 mx-10 md:my-28 md:mx-28">
                 <Link
-                  href="/bodyactivemedia"
-                  class="group text-blue-700 relative block h-64 "
+                  href="/"
+                  class="group text-blue-700 relative block my-8 md:my-0 h-64 "
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
@@ -112,13 +112,15 @@ export default function MediaNav() {
 
                       <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
 
-                      <p class="mt-0.5 opacity-50 sm:mt-0">Bodyactive Media</p>
+                      <p class="mt-0.5 opacity-50 hidden md:block sm:mt-0">
+                        Bodyactive Media
+                      </p>
                     </div>
                   </div>
                 </Link>{" "}
                 <Link
-                  href="/bodyactivemedia/ambassadors"
-                  class="group text-blue-700 relative block h-64 "
+                  href="/ambassadors"
+                  class="group text-blue-700 relative block my-8 md:my-0 h-64 "
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
@@ -133,13 +135,15 @@ export default function MediaNav() {
 
                       <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
 
-                      <p class="mt-0.5 opacity-50 sm:mt-0">Bodyactive Media</p>
+                      <p class="mt-0.5 opacity-50 hidden md:block sm:mt-0">
+                        Bodyactive Media
+                      </p>
                     </div>
                   </div>
                 </Link>
                 <Link
-                  href="/bodyactivemedia/achievements"
-                  class="group text-blue-700 relative block h-64 "
+                  href="/achievements"
+                  class="group text-blue-700 relative block my-8 md:my-0 h-64 "
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
@@ -154,14 +158,16 @@ export default function MediaNav() {
 
                       <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
 
-                      <p class="mt-0.5 opacity-50 sm:mt-0">Bodyactive Media</p>
+                      <p class="mt-0.5 opacity-50 hidden md:block sm:mt-0">
+                        Bodyactive Media
+                      </p>
                     </div>
                   </div>
                 </Link>{" "}
                 <Link
                   href="/bodyactivefitness"
                   target="_blank"
-                  class="group text-blue-700 relative block h-64 "
+                  class="group text-blue-700 relative block my-8 md:my-0 h-64 "
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
@@ -176,13 +182,15 @@ export default function MediaNav() {
 
                       <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
 
-                      <p class="mt-0.5 opacity-50 sm:mt-0">Bodyactive Media</p>
+                      <p class="mt-0.5 opacity-50 hidden md:block sm:mt-0">
+                        Bodyactive Media
+                      </p>
                     </div>
                   </div>
                 </Link>{" "}
                 <Link
-                  href="/bodyactivemedia/community"
-                  class="group text-blue-700 relative block h-64 "
+                  href="/community"
+                  class="group text-blue-700 relative block my-8 md:my-0 h-64 "
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
@@ -197,13 +205,15 @@ export default function MediaNav() {
 
                       <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
 
-                      <p class="mt-0.5 opacity-50 sm:mt-0">Bodyactive Media</p>
+                      <p class="mt-0.5 opacity-50 hidden md:block sm:mt-0">
+                        Bodyactive Media
+                      </p>
                     </div>
                   </div>
                 </Link>{" "}
                 <Link
-                  href="/bodyactivemedia/sponsorship"
-                  class="group text-blue-700 relative block h-64 "
+                  href="/sponsorship"
+                  class="group text-blue-700 relative block my-8 md:my-0 h-64 "
                   onClick={() => setShowMenu(false)}
                 >
                   <div class="block">
@@ -218,11 +228,32 @@ export default function MediaNav() {
 
                       <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
 
-                      <p class="mt-0.5 opacity-50 sm:mt-0">Bodyactive Media</p>
+                      <p class="mt-0.5 opacity-50 hidden md:block sm:mt-0">
+                        Bodyactive Media
+                      </p>
                     </div>
                   </div>
                 </Link>
               </section>
+              <Link href="/contact">
+                <button className="fixed flex z-10 top-10 left-14  text-white hover:bg-white hover:text-black hover:rounded-md font-bold uppercase text-md px-4 py-3 ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 mr-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                    />
+                  </svg>
+                  Get in Touch
+                </button>
+              </Link>
             </div>
           </div>
         </div>

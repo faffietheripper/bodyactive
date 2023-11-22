@@ -45,7 +45,7 @@ export default function Category({ params }) {
         </div>
       </div>
 
-      <section className="grid grid-cols-2 pt-96">
+      <section className="grid grid-cols-1 md:grid-cols-2 pt-40 md:pt-96">
         <div>
           <section className="flex flex-col">
             <h1 className="pt-10 text-7xl font-bold italic ml-10">
@@ -81,7 +81,7 @@ export default function Category({ params }) {
               naturalSlideWidth={100}
               isIntrinsicHeight={true}
               totalSlides={8}
-              visibleSlides={4}
+              visibleSlides={6}
               step={1}
               infinite={true}
             >
@@ -280,7 +280,7 @@ export default function Category({ params }) {
                       <Slide index={0}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/fDngH9G/carosel-1.png"
+                            src={data.img1}
                             alt="black chair and white table"
                             className="object-cover object-center w-full"
                           />
@@ -292,7 +292,7 @@ export default function Category({ params }) {
                       <Slide index={1}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/DWrGxX6/carosel-2.png"
+                            src={data.img1}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -304,7 +304,7 @@ export default function Category({ params }) {
                       <Slide index={2}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/tCfVky2/carosel-3.png"
+                            src={data.img2}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -316,7 +316,7 @@ export default function Category({ params }) {
                       <Slide index={3}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/rFsGfr5/carosel-4.png"
+                            src={data.img3}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -328,7 +328,7 @@ export default function Category({ params }) {
                       <Slide index={4}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/fDngH9G/carosel-1.png"
+                            src={data.img4}
                             alt="black chair and white table"
                             className="object-cover object-center w-full"
                           />
@@ -340,7 +340,7 @@ export default function Category({ params }) {
                       <Slide index={5}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/DWrGxX6/carosel-2.png"
+                            src={data.img5}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -352,7 +352,7 @@ export default function Category({ params }) {
                       <Slide index={6}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/tCfVky2/carosel-3.png"
+                            src={data.img6}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -364,7 +364,7 @@ export default function Category({ params }) {
                       <Slide index={7}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/rFsGfr5/carosel-4.png"
+                            src={data.img7}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -443,7 +443,7 @@ export default function Category({ params }) {
                       <Slide index={0}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/fDngH9G/carosel-1.png"
+                            src={data.img1}
                             alt="black chair and white table"
                             className="object-cover object-center w-full"
                           />
@@ -455,7 +455,7 @@ export default function Category({ params }) {
                       <Slide index={1}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/DWrGxX6/carosel-2.png"
+                            src={data.img1}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -467,7 +467,7 @@ export default function Category({ params }) {
                       <Slide index={2}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/tCfVky2/carosel-3.png"
+                            src={data.img2}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -479,7 +479,7 @@ export default function Category({ params }) {
                       <Slide index={3}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/rFsGfr5/carosel-4.png"
+                            src={data.img3}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -491,7 +491,7 @@ export default function Category({ params }) {
                       <Slide index={4}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/fDngH9G/carosel-1.png"
+                            src={data.img4}
                             alt="black chair and white table"
                             className="object-cover object-center w-full"
                           />
@@ -503,7 +503,7 @@ export default function Category({ params }) {
                       <Slide index={5}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/DWrGxX6/carosel-2.png"
+                            src={data.img5}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -515,7 +515,7 @@ export default function Category({ params }) {
                       <Slide index={6}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/tCfVky2/carosel-3.png"
+                            src={data.img6}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />
@@ -527,7 +527,7 @@ export default function Category({ params }) {
                       <Slide index={7}>
                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                           <img
-                            src="https://i.ibb.co/rFsGfr5/carosel-4.png"
+                            src={data.img7}
                             alt="sitting area"
                             className="object-cover object-center w-full"
                           />

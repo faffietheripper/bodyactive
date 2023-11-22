@@ -7,7 +7,7 @@ export default function page() {
     <>
       <div className="flex flex-col items-center py-14">
         <h1 className="italic text-4xl font-bold mb-6 py-5"> SUPPORT US</h1>
-        <p className="text-gray-400 text-xl mx-96 text-center">
+        <p className="text-gray-400 text-xl mx-8 md:mx-96 text-center">
           There is a necessity in any organisation to keep moving forward and
           Bodyactive is no exception.
         </p>
@@ -38,10 +38,11 @@ export default function page() {
                 </p>
 
                 <p class="font-medium text-gray-500 dark:text-gray-300">
-                  Seamless Setup - Fill in your details in the required fields
-                  and create an account. You will need an identity card to
-                  verify your identity to ensure that we can prescribe
-                  medication and discuss your medical history with you.
+                  Positive Brand Image and Reputation - Supporting a media and
+                  fitness company dedicated to community well-being enhances
+                  your brand's image. Associating your brand with an
+                  organization that promotes health and fitness sends a positive
+                  message about your commitment to societal well-being
                 </p>
               </div>
 
@@ -49,11 +50,12 @@ export default function page() {
                 <p class="font-medium text-gray-200 uppercase">Two</p>
 
                 <p class="font-medium text-gray-200">
-                  Book an appointment at a time that suits you - Choose the
-                  specialist who best suits your needs from our range of skilled
-                  doctors. Then, prepare for a unique experience as you
-                  seamlessly transition into a virtual consultation, right from
-                  your comfy couch.
+                  Targeted Audience Engagement - Fitness and wellness activities
+                  attract a diverse audience that is often health-conscious and
+                  actively engaged in personal improvement. By sponsoring a
+                  media and fitness company, you gain direct access to a
+                  targeted audience interested in products or services related
+                  to health, fitness, and overall well-being
                 </p>
               </div>
 
@@ -63,12 +65,11 @@ export default function page() {
                 </p>
 
                 <p class="font-medium text-gray-500 dark:text-gray-300">
-                  Get peace of mind - At the end of your consultation, if
-                  needed, your doctor will send prescriptions straight to your
-                  doorstep. Stay on track with your health goals through
-                  follow-up consultations, all through the app, ensuring your
-                  wellness journey is as smooth as it is innovative. Embrace
-                  healthcare like never before!
+                  Community Integration and Grassroots Marketing- Sponsoring a
+                  local media and fitness company provides an opportunity for
+                  grassroots marketing. Your brand becomes integrated into the
+                  fabric of the community, fostering a sense of connection and
+                  loyalty among local consumers
                 </p>
               </div>
             </div>
@@ -302,7 +303,7 @@ export default function page() {
                       </svg>
                     </div>
                     <h6 className="mb-2 font-semibold leading-5">
-                      Expert Sexual Health Professionals
+                      Exclusive Partnership
                     </h6>
                     <p className="text-sm text-gray-900">
                       Our team of experienced medical professionals specializes
@@ -329,7 +330,7 @@ export default function page() {
                     </svg>
                   </div>
                   <h6 className="mb-2 font-semibold leading-5">
-                    Confidentiality and Privacy
+                    Category Exclusivity
                   </h6>
                   <p className="text-sm text-gray-900">
                     We understand the sensitive nature of sexual health
@@ -355,7 +356,7 @@ export default function page() {
                     </svg>
                   </div>
                   <h6 className="mb-2 font-semibold leading-5">
-                    Convenient and Accessible Care
+                    Digital Media Package - Online Visibility
                   </h6>
                   <p className="text-sm text-gray-900">
                     Traveling to a clinic is no longer necessary. With
@@ -380,7 +381,7 @@ export default function page() {
                     </svg>
                   </div>
                   <h6 className="mb-2 font-semibold leading-5">
-                    Empowerment through Knowledge
+                    Community Engagement - Local Impact
                   </h6>
                   <p className="text-sm text-gray-900">
                     We believe in empowering you with accurate information. Our
@@ -394,7 +395,7 @@ export default function page() {
                   height={900}
                   width={900}
                   className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                  src="https://cdn.pixabay.com/photo/2017/08/05/20/28/couple-2585328_640.jpg"
+                  src="https://cdn.pixabay.com/photo/2019/11/16/23/20/marathon-4631279_1280.jpg"
                   alt=""
                 />
               </div>
@@ -410,7 +411,7 @@ export default function page() {
           </h2>
 
           <p class="max-w-4xl mt-6 text-center text-gray-500 dark:text-gray-300">
-            Elevate Your Medical Practice with Our Telemedicine App!
+            Elevate Your Lifestyle by becoming a part of the family!
           </p>
 
           <div class="inline-flex w-full mt-6 sm:w-auto">

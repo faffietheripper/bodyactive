@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <div>
-      <section class="min-h-screen bg-cover bg-[url(https://cdn.pixabay.com/photo/2020/02/08/14/28/camera-4830248_1280.jpg)] ">
+    <div className="">
+      <section class="min-h-screen bg-cover  bg-[url(https://cdn.pixabay.com/photo/2020/02/08/14/28/camera-4830248_1280.jpg)] ">
         <div class="flex flex-col min-h-screen bg-white/40">
           <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
@@ -15,7 +15,7 @@ export default function page() {
                   width={300}
                   src="/bodyactive2.PNG"
                   alt="logo"
-                  className="fixed z-10 top-0 left-52 "
+                  className="fixed z-10 hidden md:block top-0 left-52 "
                 />
               </Link>
 

@@ -9,7 +9,7 @@ export default function page() {
   return (
     <>
       <section>
-        <div class="lg:flex">
+        <div class="lg:flex pt-20 md:pt-0">
           <div class="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
             <div class="max-w-xl">
               <h2 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
@@ -38,11 +38,11 @@ export default function page() {
         </div>
       </section>
 
-      <section className="grid grid-cols-4 border-y border-gray-500 py-14 gap-6 mt-12">
+      <section className="grid grid-cols-1 md:grid-cols-4 border-y border-gray-500 py-14 mx-4 md:mx-0 gap-6 mt-12">
         {products.map((data) => {
           return (
             <a
-              href={`/bodyactivemedia/ambassadors/${data.id}`}
+              href={`/ambassadors/${data.id}`}
               class="group block"
               key={data.id}
             >
@@ -69,9 +69,10 @@ export default function page() {
           );
         })}
       </section>
-      <section className="grid grid-cols-2 py-20 p-14">
-        <div className="mx-6">
-          <h1 className="italic text-4xl font-bold mb-6 py-5">
+
+      <section className="grid grid-cols-1 gap-y-6 md:grid-cols-2 md:py-20 md:p-14 p-8">
+        <div className="md:mx-10">
+          <h1 className="italic text-3xl font-bold mb-6 py-5">
             {" "}
             JOIN THE BODYACTIVE FAMILY ?
           </h1>
@@ -95,7 +96,7 @@ export default function page() {
           class="object-cover h-[70vh]  opacity-75 transition-opacity group-hover:opacity-50 "
           height={9000}
           width={9000}
-          src="https://cdn.pixabay.com/photo/2017/03/13/21/27/farmer-walks-2141229_1280.jpg"
+          src="https://cdn.pixabay.com/photo/2013/05/02/21/23/basketball-108622_1280.jpg"
           alt="media"
         />
       </section>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <section className="grid grid-cols-4">
+      <section className="grid grid-cols-1 md:grid-cols-4">
         <div className="border-r-2 border-t-2 border-gray-600 p-10">
           <h1 className="py-3 text-xl font-bold italic"> QUICK LINKS</h1>
           <ul>
@@ -62,10 +62,10 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="border-r-2 border-t-2 border-gray-600 p-10 col-span-2">
+        <div className="border-r-2 border-t-2 border-gray-600 p-10 md:col-span-2">
           ALL RIGHTS RESERVED. Designed by Tino👑.
         </div>
-        <div className="border-right border-t-2 border-gray-600 col-span-2 p-10">
+        <div className="border-right border-t-2 border-gray-600 md:col-span-2 p-10">
           TEL: 456-123-5555 EMAIL: INFO@YOURSITE.COM
         </div>
       </section>

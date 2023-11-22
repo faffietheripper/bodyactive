@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Permanent_Marker } from "next/font/google";
+import MediaNav from "@/components/MediaNav/MediaNav";
 
 const quicksand = Permanent_Marker({ subsets: ["latin"], weight: "400" });
 
@@ -11,7 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>{children}</body>
+      <body className={quicksand.className}>
+        <MediaNav />
+        {children}
+      </body>
     </html>
   );
 }

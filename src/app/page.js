@@ -1,54 +1,102 @@
+import Footer from "@/components/Footer/Footer";
+import MediaNav from "@/components/MediaNav/MediaNav";
+import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="text-white">
-      <section>
-        <div class="">
-          <div class="text-center ">
-            <Image
-              class="relative object-cover w-screen h-[100vh]"
-              height={9000}
-              width={9000}
-              src="https://cdn.pixabay.com/photo/2015/08/18/01/51/camera-893211_1280.jpg"
-              alt=""
-            />
-            <div class="text-center">
-              <div>
-                <Image
-                  height={300}
-                  width={300}
-                  src="/bodyactive.PNG"
-                  alt="logo"
-                  className="fixed z-10 top-0 "
-                />
-              </div>
-              <Link href="/contact">
-                <button className="fixed flex z-10 top-16 right-6  text-white hover:bg-white hover:text-black hover:rounded-md font-bold uppercase text-md px-4 py-3 ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="w-6 h-6 mr-4"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                    />
-                  </svg>
-                  Get in Touch
-                </button>
-              </Link>
-            </div>
-          </div>
+    <>
+      <MediaNav />
+
+      <div className="md:flex italic text-4xl md:text-6xl font-bold flex-col text-center md:justify-between p-24 ">
+        <span className="text-blue-600">BODYACTIVE </span>MEDIA
+      </div>
+
+      <section className="grid grid-cols-1 gap-y-4 md:grid-cols-2 gap-x-6 p-6 border-y-2 border-gray-500">
+        <div>
+          <Image
+            class="object-cover h-[50vh] border border-gray-600 opacity-75 transition-opacity group-hover:opacity-50 "
+            height={9000}
+            width={9000}
+            src="https://cdn.pixabay.com/photo/2016/11/20/10/42/boxing-1842466_1280.jpg"
+            alt="media"
+          />
+          <section className="border border-gray-600 p-10">
+            <h3 className="text-blue-600"> OUR STORY </h3>
+            <h1 className="italic text-4xl font-bold py-5">
+              {" "}
+              THE BODYACTIVE TRAINING STORY
+            </h1>
+            <p className="text-gray-400 pb-3 ">
+              Neque ornare pellentesque mus in nisi, mi, ac. Morbi volutpat
+              velit id adipiscing mollis. Quisque bibendum vehicula eget ac
+              fringilla non nec.
+            </p>
+            <p className="text-gray-400 pt-2">
+              Sed vitae faucibus tristique nisl, tincidunt nec consequat
+              ullamcorper. Eu volutpat lacus lacus porttitor sed nunc. Neque
+              ornare pellentesque mus in nisi, mi, ac. Morbi volutpat velit id
+              adipiscing mollis. Quisque bibendum vehicula eget ac fringilla non
+              nec. Sed vitae faucibus tristique nisl, tincidunt nec consequat
+              ullamcorper. Eu volutpat lacus lacus porttitor sed nunc.
+            </p>
+          </section>
+        </div>
+        <div>
+          <Image
+            class="object-cover h-[50vh] border border-gray-600 opacity-75 transition-opacity group-hover:opacity-50 "
+            height={9000}
+            width={9000}
+            src="https://cdn.pixabay.com/photo/2018/02/13/17/04/lens-3151078_1280.jpg"
+            alt="media"
+          />
+          <section className="border border-gray-600 p-10">
+            <h3 className="text-blue-600"> OUR MISSION </h3>
+            <h1 className="italic text-4xl font-bold py-5">
+              {" "}
+              THE BODYACTIVE TRAINING STORY
+            </h1>
+            <p className="text-gray-400 pb-3 ">
+              Neque ornare pellentesque mus in nisi, mi, ac. Morbi volutpat
+              velit id adipiscing mollis. Quisque bibendum vehicula eget ac
+              fringilla non nec.
+            </p>
+            <p className="text-gray-400 pt-2">
+              Sed vitae faucibus tristique nisl, tincidunt nec consequat
+              ullamcorper. Eu volutpat lacus lacus porttitor sed nunc. Neque
+              ornare pellentesque mus in nisi, mi, ac. Morbi volutpat velit id
+              adipiscing mollis. Quisque bibendum vehicula eget ac fringilla non
+              nec. Sed vitae faucibus tristique nisl, tincidunt nec consequat
+              ullamcorper. Eu volutpat lacus lacus porttitor sed nunc.
+            </p>
+          </section>
         </div>
       </section>
 
-      <section className="pb-20">
+      <section className="grid grid-cols-1  gap-y-4 md:grid-cols-3 gap-x-6 p-6">
+        <Image
+          class="object-cover h-[40vh]   opacity-75 transition-opacity group-hover:opacity-50 "
+          height={9000}
+          width={9000}
+          src="https://cdn.pixabay.com/photo/2019/11/16/23/21/marathon-4631284_1280.jpg"
+          alt="media"
+        />
+        <Image
+          class="object-cover h-[40vh]  opacity-75 transition-opacity group-hover:opacity-50 "
+          height={9000}
+          width={9000}
+          src="https://cdn.pixabay.com/photo/2014/11/17/13/17/crossfit-534615_1280.jpg"
+          alt="media"
+        />
+        <Image
+          class="object-cover h-[40vh]  opacity-75 transition-opacity group-hover:opacity-50 "
+          height={9000}
+          width={9000}
+          src="https://cdn.pixabay.com/photo/2015/09/05/23/47/tennis-926386_1280.jpg"
+          alt="media"
+        />
+      </section>
+      <section className=" border-y border-gray-600">
         <div class="container flex flex-col px-6 py-4 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
           <div class="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
             <div class="flex justify-center order-2 mt-6 lg:mt-0 lg:space-y-3 lg:flex-col">
@@ -59,7 +107,7 @@ export default function Home() {
             </div>
 
             <div class="max-w-lg lg:mx-12 lg:order-2">
-              <p class="mt-4 text-gray-300 text-xl font-semibold">
+              <p class=" text-gray-300 text-xl font-semibold">
                 Whether you're here to explore our media services or embark on a
                 transformative fitness journey, we invite you to take the next
                 step with Body Active. Together, let's unlock your potential,
@@ -80,63 +128,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className="grid grid-cols-1 md:grid-cols-5 gap-x-4 p-4">
-        <Link
-          href="/bodyactivefitness"
-          target="_blank"
-          class="group col-span-3 relative block bg-black"
-        >
-          <Image
-            class="object-cover h-[50vh] absolute inset-0 w-full opacity-75 transition-opacity group-hover:opacity-50 "
-            height={9000}
-            width={9000}
-            src="https://cdn.pixabay.com/photo/2021/01/04/06/20/man-5886570_1280.jpg"
-            alt="media"
-          />
-
-          <div class="relative p-4 sm:p-6 lg:p-8">
-            <p class="text-sm font-medium uppercase tracking-widest text-blue-500">
-              CLICK TO LEARN MORE
-            </p>
-
-            <p class="text-xl font-bold text-white sm:text-2xl">
-              BodyActive Fitness
-            </p>
-
-            <div class="mt-32 sm:mt-48 lg:mt-64">
-              <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"></div>
-            </div>
-          </div>
-        </Link>
-
-        <Link
-          href="/bodyactivemedia"
-          class="group col-span-2 relative block bg-black"
-        >
-          <Image
-            class="object-cover h-[50vh] absolute inset-0 w-full opacity-75 transition-opacity group-hover:opacity-50 "
-            height={9000}
-            width={9000}
-            src="https://cdn.pixabay.com/photo/2018/02/13/17/04/lens-3151078_1280.jpg"
-            alt="media"
-          />
-
-          <div class="relative p-4 sm:p-6 lg:p-8">
-            <p class="text-sm font-medium uppercase tracking-widest text-blue-500">
-              CLICK TO LEARN MORE
-            </p>
-
-            <p class="text-xl font-bold text-white sm:text-2xl">
-              BodyActive Media
-            </p>
-
-            <div class="mt-32 sm:mt-48 lg:mt-64">
-              <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"></div>
-            </div>
-          </div>
-        </Link>
-      </section>
-    </main>
+      <Footer />
+    </>
   );
 }
