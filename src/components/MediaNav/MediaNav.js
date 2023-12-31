@@ -147,31 +147,6 @@ export default function MediaNav() {
                   </div>
                 </Link>
                 <Link
-                  href="/achievements"
-                  class="group text-blue-700 relative block my-8 md:my-0 h-64 "
-                  onClick={() => setShowMenu(false)}
-                >
-                  <div class="block">
-                    <Image
-                      height={9000}
-                      width={9000}
-                      alt="Achievements"
-                      src="https://cdn.pixabay.com/photo/2019/08/11/15/28/sport-4399175_1280.jpg"
-                      class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover "
-                    />
-
-                    <div class="mt-4 sm:flex sm:items-center sm:justify-center sm:gap-4">
-                      <strong class="font-medium">Achievements</strong>
-
-                      <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
-
-                      <p class="mt-0.5 opacity-50 hidden md:block sm:mt-0">
-                        Bodyactive Media
-                      </p>
-                    </div>
-                  </div>
-                </Link>{" "}
-                <Link
                   href="/bodyactivefitness"
                   target="_blank"
                   class="group text-blue-700 relative block my-8 md:my-0 h-64 "
@@ -247,6 +222,31 @@ export default function MediaNav() {
                     </div>
                   </div>
                 </Link>
+                <Link
+                  href="/thefeed"
+                  class="group text-blue-700 relative block my-8 md:my-0 h-64 "
+                  onClick={() => setShowMenu(false)}
+                >
+                  <div class="block">
+                    <Image
+                      height={9000}
+                      width={9000}
+                      alt="Achievements"
+                      src="https://cdn.pixabay.com/photo/2016/06/02/09/05/social-media-1430527_1280.jpg"
+                      class="h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover "
+                    />
+
+                    <div class="mt-4 sm:flex sm:items-center sm:justify-center sm:gap-4">
+                      <strong class="font-medium">The Feed</strong>
+
+                      <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-yellow-500"></span>
+
+                      <p class="mt-0.5 opacity-50 hidden md:block sm:mt-0">
+                        Bodyactive Media
+                      </p>
+                    </div>
+                  </div>
+                </Link>
               </section>
               <Link href="/contact" onClick={() => setShowMenu(false)}>
                 <button className="fixed flex z-10 top-10 left-14  text-white hover:bg-white hover:text-black hover:rounded-md font-bold uppercase text-md px-4 py-3 ">
@@ -265,6 +265,24 @@ export default function MediaNav() {
                     />
                   </svg>
                   Get in Touch
+                </button>
+              </Link>
+              <Link href="/livestream" onClick={() => setShowMenu(false)}>
+                <button className="fixed flex z-10 top-10 left-96  text-white hover:bg-white hover:text-black hover:rounded-md font-bold uppercase text-md px-4 py-3 ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 mr-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z"
+                    />
+                  </svg>
+                  Livestream
                 </button>
               </Link>
             </div>
